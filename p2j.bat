@@ -10,4 +10,3 @@ for /f "delims=!" %%i in ('dir /b /ad /s "%curdir%"') do (
 	cd /d ..
 )
 pause
-@start /d "%%~dpi" "%%~nxi"
